@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCRS", "ASCRS.csproj", "{438FD51B-3706-E92E-3353-9D1AE10FF980}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{438FD51B-3706-E92E-3353-9D1AE10FF980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438FD51B-3706-E92E-3353-9D1AE10FF980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438FD51B-3706-E92E-3353-9D1AE10FF980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438FD51B-3706-E92E-3353-9D1AE10FF980}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8291EB6-F066-489A-B989-9B3836369179}
+	EndGlobalSection
+EndGlobal

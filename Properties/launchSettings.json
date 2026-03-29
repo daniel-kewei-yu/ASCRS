@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ASCRS": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

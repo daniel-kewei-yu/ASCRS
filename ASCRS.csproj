@@ -1,0 +1,45 @@
+<!--
+  Project:     Aperture Science Cursor Relocation Suite (ASCRS)
+  Author:      Daniel Yu
+  Date:        2026-03-27
+  Description:
+    This project is a Windows Forms application that creates a transparent
+    overlay over the entire screen, draws two portal images (Blue and Orange),
+    and implements a dynamic cursor teleportation effect. The application
+    supports Edit Mode (drag portals) and Play Mode (cursor teleport), with a
+    draggable button to toggle modes. It also includes a global hotkey (Esc)
+    to exit. The portal images can be animated GIFs, and the custom cursor
+    sprite is loaded from a PNG file.
+
+  Target framework: .NET 8.0 (Windows)
+  Output type: Windows executable (WinExe)
+-->
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ASCRS</RootNamespace>
+    <ApplicationIcon>Resources\icons\ASCRSicon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\icons\ASCRSicon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\cursors\aero_link_l.cur">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\icons\bluePortal.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\icons\orangePortal.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\icons\cursorSprite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
