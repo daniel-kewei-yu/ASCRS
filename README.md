@@ -6,7 +6,6 @@ In **play mode** the cursor teleports from one portal to the other, preserving i
 
 ### Controls
 
-- **E** – Toggle edit mode (drag portals) / play mode (cursor teleportation).
 - **Esc** – Exit the application.
 
 ### Features
